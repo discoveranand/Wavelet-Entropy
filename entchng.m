@@ -7,7 +7,6 @@
 % Divides the total signal into a set of frames of fixed length and
 % calculate relative entropy change
 
-
 function [rtchng rng] = entchng(data,winlen,lvl,wav)
 
 l = length(data);
